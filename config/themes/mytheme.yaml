@@ -1,0 +1,14 @@
+enabled: true
+top_level_version: false
+github:
+  position: top
+default_taxonomy_category: docs
+streams:
+  schemes:
+    theme:
+      type: ReadOnlyStream
+      prefixes:
+        '': [user/themes/mytheme, user/themes/learn2-git-sync, user/themes/learn2]
+style: default
+hide_site_title: false
+enable_doc_versioning: false
